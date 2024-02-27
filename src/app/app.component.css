@@ -1,0 +1,11 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide la página en dos columnas iguales */
+    grid-template-rows: repeat(2, 1fr); /* Divide la página en dos filas iguales */
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  
+  .app-container1, .app-container2, .app-container3, .app-container4 {
+    padding: 20px;
+  }
+  

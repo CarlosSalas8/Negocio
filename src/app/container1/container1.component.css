@@ -1,0 +1,35 @@
+.container {
+    position: relative; /* Establece la posición relativa para el contenedor */
+    background-color: #ffffff; /* Color magenta */
+    padding: 200px; /* Reducido para que el cuadro de etiqueta no se solape */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.label {
+    position: absolute; /* Establece la posición absoluta para el cuadro de etiqueta */
+    top: 10px; /* Alinea el cuadro de etiqueta en la parte superior con un pequeño espacio */
+    right: 10px; /* Alinea el cuadro de etiqueta en la parte derecha con un pequeño espacio */
+    background-color: #E3E9EF; /* Color naranja para el cuadro de etiqueta */
+    color: #0087AA; /* Color del texto del cuadro de etiqueta */
+    padding: 45px 30px; /* Espaciado interno del cuadro de etiqueta */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.label:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el cursor sobre el cuadro de etiqueta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+}
+
+.titulo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #0087AA;
+    font-weight: bold;
+    font-size: 23.62px;
+    font-family: 'Inter', sans-serif; /* Especifica la fuente Inter */
+}
+
